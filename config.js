@@ -348,9 +348,7 @@ window.CONFIG = {
     contact: {
       name:   "Nicolas Bayonne",
       role:   "AI Developer & Chatbot Architect",
-      email:  "nbayonne76@gmail.com",
-      email2: "contact@happi-bot.com",
-      site:   "happi-bot.com"
+      email:  "nbayonne76@gmail.com"
     }
   }
 

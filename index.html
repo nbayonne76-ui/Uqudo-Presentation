@@ -576,11 +576,6 @@ html, body {
         <div class="cr" id="s6-cr"></div>
         <div class="emails" id="s6-emails"></div>
       </div>
-      <div class="divv"></div>
-      <div>
-        <div class="nb-brand">NB</div>
-        <div class="nb-sub" id="s6-site"></div>
-      </div>
     </div>
   </div>
 </div>
@@ -734,8 +729,7 @@ document.getElementById('s6-title').innerHTML = `Let's build <em>this</em>`;
 document.getElementById('s6-sub').textContent    = C.cta.subtitle;
 document.getElementById('s6-cn').textContent     = C.cta.contact.name;
 document.getElementById('s6-cr').textContent     = C.cta.contact.role;
-document.getElementById('s6-emails').innerHTML   = `${C.cta.contact.email}<br>${C.cta.contact.email2}`;
-document.getElementById('s6-site').textContent   = C.cta.contact.site;
+document.getElementById('s6-emails').textContent = C.cta.contact.email;
 
 const s6chips = document.getElementById('s6-chips');
 C.cta.chips.forEach(ch => {
