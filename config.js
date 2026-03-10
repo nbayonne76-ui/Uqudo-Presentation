@@ -13,7 +13,7 @@ window.CONFIG = {
 
   cover: {
     headline:  "A Pre-Sales Intelligence Bot for Uqudo",
-    sub:       "Compressing enterprise sales cycles through instant AI-powered qualification — prospects self-serve in real time, arrive briefed, and convert faster",
+    sub:       "Compressing enterprise sales cycles through instant AI-powered qualification: prospects self-serve in real time, arrive briefed, and convert faster",
     chips: [
       { label: "🎯 Instant prospect qualification"         },
       { label: "🌍 22-country compliance navigator"        },
@@ -30,17 +30,17 @@ window.CONFIG = {
     {
       icon:  "⏳",
       title: "Enterprise prospects can't self-qualify without a sales rep",
-      desc:  "A bank CTO in Saudi Arabia lands on uqudo.com. They need eKYC + AML screening. They read 4 product pages, fill a demo form, and wait 24–48 hours for a response. By then, they may have already booked a call with Jumio or Sumsub. The friction between intent and qualification is where deals are lost — before your team even enters the picture."
+      desc:  "A bank CTO in Saudi Arabia lands on uqudo.com. They need eKYC + AML screening. They read 4 product pages, fill a demo form, and wait 24 to 48 hours for a response. By then, they may have already booked a call with Jumio or Sumsub. The friction between intent and qualification is where deals are lost, before your team even enters the picture."
     },
     {
       icon:  "🌍",
       title: "Country-specific compliance questions go unanswered instantly",
-      desc:  "Is uqudo certified for SAMA in Saudi Arabia? Does it cover NFC chip reading for UAE national IDs? Is on-premise deployment available for GCC data residency requirements? These are the first questions every enterprise prospect asks — and right now, the only answer is 'book a demo and we'll explain.' A bot answers in seconds."
+      desc:  "Is uqudo certified for SAMA in Saudi Arabia? Does it cover NFC chip reading for UAE national IDs? Is on-premise deployment available for GCC data residency requirements? These are the first questions every enterprise prospect asks. Right now, the only answer is 'book a demo and we'll explain.' A bot answers in seconds."
     },
     {
       icon:  "📞",
       title: "Every discovery call starts from zero",
-      desc:  "Your sales team joins a call with no context: which product does the prospect need? What country are they in? What's their monthly verification volume? What's their stack? These 15 minutes of qualification happen on every single call — compressing a process that a bot could handle before the meeting even starts."
+      desc:  "Your sales team joins a call with no context: which product does the prospect need? What country are they in? What's their monthly verification volume? What's their stack? These 15 minutes of qualification happen on every single call, compressing a process that a bot could handle before the meeting even starts."
     }
   ],
 
@@ -48,26 +48,26 @@ window.CONFIG = {
     {
       icon:  "🎯",
       title: "Instant sector + geography qualification",
-      desc:  "The bot identifies the prospect's sector (bank, fintech, crypto, government, marketplace), geography, and use case (eKYC, KYB, biometric auth, fraud, AML) in under 2 minutes. It then recommends the exact uqudo product stack that fits — with the relevant regulatory context for their market. Prospects arrive at demos knowing which product they need.",
+      desc:  "The bot identifies the prospect's sector (bank, fintech, crypto, government, marketplace), geography, and use case (eKYC, KYB, biometric auth, fraud, AML) in under 2 minutes. It then recommends the exact uqudo product stack that fits, with the relevant regulatory context for their market. Prospects arrive at demos knowing which product they need.",
       tag:   "Core feature"
     },
     {
       icon:  "🌍",
       title: "22-country compliance navigator",
-      desc:  "The bot knows the regulatory requirements of every market uqudo covers: SAMA (KSA), CBUAE (UAE), CBK (Kuwait), CBE (Egypt), CBN (Nigeria), FATF standards, and more. A prospect from Egypt asks 'are you compliant for Egyptian KYC?' — the bot answers with the specific requirements met, documents supported, and government database integrations available. No competitor does this.",
+      desc:  "The bot knows the regulatory requirements of every market uqudo covers: SAMA (KSA), CBUAE (UAE), CBK (Kuwait), CBE (Egypt), CBN (Nigeria), FATF standards, and more. A prospect from Egypt asks 'are you compliant for Egyptian KYC?' The bot answers with the specific requirements met, documents supported, and government database integrations available. No competitor does this.",
       tag:   "Core feature"
     },
     {
       icon:  "📊",
       title: "ROI calculator + technical pre-sales answers",
-      desc:  "The bot calculates the prospect's estimated ROI based on their monthly verification volume, current manual review cost, and fraud exposure — showing the business case before the first call. It also answers developer questions: SDK support, API response times, on-premise options, FIDO2 compliance, integration effort. Sales team joins a call with a fully briefed, pre-qualified lead.",
+      desc:  "The bot calculates the prospect's estimated ROI based on their monthly verification volume, current manual review cost, and fraud exposure, showing the business case before the first call. It also answers developer questions: SDK support, API response times, on-premise options, FIDO2 compliance, integration effort. Sales team joins a call with a fully briefed, pre-qualified lead.",
       tag:   "High-value layer"
     }
   ],
 
   chatbot: {
     name:    "Uqudo Pre-Sales Assistant",
-    welcome: "Welcome to Uqudo. 🔐\nI'm your AI pre-sales assistant. I'll help you find the right solution for your identity, fraud, or compliance needs in under 2 minutes.\n\nLet's start — what best describes you?",
+    welcome: "Welcome to Uqudo. 🔐\nI'm your AI pre-sales assistant. I'll help you find the right solution for your identity, fraud, or compliance needs in under 2 minutes.\n\nLet's start. What best describes you?",
     steps: {
       start: {
         opts: [
@@ -115,7 +115,7 @@ window.CONFIG = {
       },
       bank_fraud: {
         fan: "🚨 Fraud prevention",
-        bot: "uqudo's Device Intelligence module is one of its strongest differentiators:\n\n• >99.9% device recognition accuracy — persistent across resets and spoofing attempts\n• Detects emulator usage, app cloners, rooted devices, GPS spoofing, VPN/Tor\n• Flags when the same ID document is reused across multiple accounts\n• 30+ real-time risk signals scored before any transaction is approved\n\nThis is especially valuable for banks facing account takeover, new account fraud, or bonus abuse. What type of fraud are you currently experiencing?",
+        bot: "uqudo's Device Intelligence module is one of its strongest differentiators:\n\n• 99.9%+ device recognition accuracy. Persistent across resets and spoofing attempts\n• Detects emulator usage, app cloners, rooted devices, GPS spoofing, VPN/Tor\n• Flags when the same ID document is reused across multiple accounts\n• 30+ real-time risk signals scored before any transaction is approved\n\nThis is especially valuable for banks facing account takeover, new account fraud, or bonus abuse. What type of fraud are you currently experiencing?",
         opts: [
           ["📅 Book a demo", "book_demo"],
           ["← Back",         "start"]
@@ -123,7 +123,7 @@ window.CONFIG = {
       },
       bank_aml: {
         fan: "📋 AML screening",
-        bot: "uqudo's compliance layer includes:\n\n• Sanctions list screening (OFAC, EU, UN and local lists)\n• PEP (Politically Exposed Persons) database checks\n• Adverse media monitoring\n• Ongoing re-screening — not just at onboarding, but continuously\n• Automated alerts when a customer's risk status changes post-onboarding\n\nFor banks in MEA, ongoing monitoring is a regulatory requirement in most jurisdictions. uqudo automates this entirely. Which country's regulatory framework applies to you?",
+        bot: "uqudo's compliance layer includes:\n\n• Sanctions list screening (OFAC, EU, UN and local lists)\n• PEP (Politically Exposed Persons) database checks\n• Adverse media monitoring\n• Ongoing re-screening. Not just at onboarding, but continuously\n• Automated alerts when a customer's risk status changes post-onboarding\n\nFor banks in MEA, ongoing monitoring is a regulatory requirement in most jurisdictions. uqudo automates this entirely. Which country's regulatory framework applies to you?",
         opts: [
           ["🌍 Check compliance", "compliance"],
           ["📅 Book a demo",      "book_demo"],
@@ -144,7 +144,7 @@ window.CONFIG = {
       },
       fintech_speed: {
         fan: "⚡ Speed of onboarding",
-        bot: "uqudo's success-based pricing model is built for fintechs: you only pay for successfully verified users. No charge for failed attempts or extra verification steps.\n\nThe onboarding flow (document scan → facial match → liveness check → government verification) completes in under 30 seconds on mobile. It integrates via SDK (iOS, Android, React Native, Web) or REST API — typically live in days, not weeks.\n\nWhat's your expected monthly verification volume?",
+        bot: "uqudo's success-based pricing model is built for fintechs: you only pay for successfully verified users. No charge for failed attempts or extra verification steps.\n\nThe onboarding flow (document scan → facial match → liveness check → government verification) completes in under 30 seconds on mobile. It integrates via SDK (iOS, Android, React Native, Web) or REST API, typically live in days, not weeks.\n\nWhat's your expected monthly verification volume?",
         opts: [
           ["📊 Estimate ROI", "roi"],
           ["📅 Book a demo",  "book_demo"],
@@ -153,7 +153,7 @@ window.CONFIG = {
       },
       fintech_fraud: {
         fan: "🛡️ Reducing fraud",
-        bot: "For fintechs, new account fraud and bonus abuse are the most common attack vectors. uqudo addresses both:\n\n• ID reuse detection: flags if the same document appears across multiple signup attempts\n• Device fingerprinting: detects device farms, app cloners, emulators used to create fake accounts\n• Liveness detection: blocks deepfake selfies and presentation attacks at onboarding\n\nAll checks happen in real time within the onboarding flow — no manual review needed.",
+        bot: "For fintechs, new account fraud and bonus abuse are the most common attack vectors. uqudo addresses both:\n\n• ID reuse detection: flags if the same document appears across multiple signup attempts\n• Device fingerprinting: detects device farms, app cloners, emulators used to create fake accounts\n• Liveness detection: blocks deepfake selfies and presentation attacks at onboarding\n\nAll checks happen in real time within the onboarding flow. No manual review needed.",
         opts: [
           ["📅 Book a demo", "book_demo"],
           ["← Back",         "start"]
@@ -163,7 +163,7 @@ window.CONFIG = {
       /* ── CRYPTO ── */
       sector_crypto: {
         fan: "₿ Crypto exchange or Web3",
-        bot: "Crypto exchanges face some of the most stringent KYC requirements globally — especially in MEA, where regulators are actively tightening rules. uqudo covers:\n\n• Full eKYC flow for individual user onboarding (FATF Travel Rule compliance)\n• High-risk jurisdiction flagging\n• Ongoing AML monitoring and transaction pattern analysis\n• Biometric authentication for high-value transaction approval\n\nWhich jurisdiction are you regulated under?",
+        bot: "Crypto exchanges face some of the most stringent KYC requirements globally, especially in MEA, where regulators are actively tightening rules. uqudo covers:\n\n• Full eKYC flow for individual user onboarding (FATF Travel Rule compliance)\n• High-risk jurisdiction flagging\n• Ongoing AML monitoring and transaction pattern analysis\n• Biometric authentication for high-value transaction approval\n\nWhich jurisdiction are you regulated under?",
         opts: [
           ["🌍 Check compliance", "compliance"],
           ["📅 Book a demo",      "book_demo"],
@@ -174,7 +174,7 @@ window.CONFIG = {
       /* ── GOV ── */
       sector_gov: {
         fan: "🏛️ Government or public sector",
-        bot: "uqudo works with government entities on digital identity infrastructure — including e-government onboarding, citizen identity verification, and cross-agency identity reuse. Key capabilities:\n\n• NFC chip reading for government-issued e-documents\n• Direct integration with national ID databases in key MEA countries\n• On-premise or private cloud deployment for full data sovereignty\n• FIDO2-compliant biometric authentication for government portals\n\nWhich country and use case are you evaluating?",
+        bot: "uqudo works with government entities on digital identity infrastructure, including e-government onboarding, citizen identity verification, and cross-agency identity reuse. Key capabilities:\n\n• NFC chip reading for government-issued e-documents\n• Direct integration with national ID databases in key MEA countries\n• On-premise or private cloud deployment for full data sovereignty\n• FIDO2-compliant biometric authentication for government portals\n\nWhich country and use case are you evaluating?",
         opts: [
           ["🌍 Check compliance", "compliance"],
           ["⚙️ On-premise options","technical"],
@@ -186,7 +186,7 @@ window.CONFIG = {
       /* ── MARKETPLACE ── */
       sector_marketplace: {
         fan: "🛒 Marketplace or platform",
-        bot: "Marketplaces and platforms need to verify both individual users and businesses — often at scale. uqudo's combined eKYC + KYB approach lets you verify sellers, service providers, or business partners in the same flow:\n\n• Individual identity verification for users/sellers\n• Business verification for corporate accounts (300M+ companies)\n• Fraud prevention to block fake accounts and bonus abuse\n• Biometric re-authentication for high-value transactions\n\nWhat's your primary market and user type?",
+        bot: "Marketplaces and platforms need to verify both individual users and businesses, often at scale. uqudo's combined eKYC + KYB approach lets you verify sellers, service providers, or business partners in the same flow:\n\n• Individual identity verification for users/sellers\n• Business verification for corporate accounts (300M+ companies)\n• Fraud prevention to block fake accounts and bonus abuse\n• Biometric re-authentication for high-value transactions\n\nWhat's your primary market and user type?",
         opts: [
           ["📊 Estimate ROI", "roi"],
           ["📅 Book a demo",  "book_demo"],
@@ -218,7 +218,7 @@ window.CONFIG = {
       },
       comp_uae: {
         fan: "🇦🇪 UAE",
-        bot: "For the UAE (CBUAE regulations):\n\n✅ UAE national ID (Emirates ID) with NFC chip reading\n✅ UAE passport and residency visa verification\n✅ Integration with UAE PASS for government identity verification\n✅ CBUAE-aligned KYC and AML requirements covered\n✅ On-premise and UAE cloud hosting available\n✅ Arabic + English bilingual onboarding flow\n\nThe UAE is one of uqudo's strongest markets — full regulatory alignment and government database access.",
+        bot: "For the UAE (CBUAE regulations):\n\n✅ UAE national ID (Emirates ID) with NFC chip reading\n✅ UAE passport and residency visa verification\n✅ Integration with UAE PASS for government identity verification\n✅ CBUAE-aligned KYC and AML requirements covered\n✅ On-premise and UAE cloud hosting available\n✅ Arabic + English bilingual onboarding flow\n\nThe UAE is one of uqudo's strongest markets. Full regulatory alignment and government database access.",
         opts: [
           ["📅 Book a demo", "book_demo"],
           ["← Back",         "start"]
@@ -226,7 +226,7 @@ window.CONFIG = {
       },
       comp_egypt: {
         fan: "🇪🇬 Egypt",
-        bot: "For Egypt (Central Bank of Egypt regulations):\n\n✅ Egyptian National ID verification with AI document parsing\n✅ CBE-aligned eKYC requirements for digital banking onboarding\n✅ Arabic language support\n✅ AML screening covering Egyptian PEP and sanctions lists\n\nEgypt is one of the fastest-growing digital banking markets in MEA — uqudo is actively expanding coverage here.",
+        bot: "For Egypt (Central Bank of Egypt regulations):\n\n✅ Egyptian National ID verification with AI document parsing\n✅ CBE-aligned eKYC requirements for digital banking onboarding\n✅ Arabic language support\n✅ AML screening covering Egyptian PEP and sanctions lists\n\nEgypt is one of the fastest-growing digital banking markets in MEA. Uqudo is actively expanding coverage here.",
         opts: [
           ["📅 Book a demo", "book_demo"],
           ["← Back",         "start"]
@@ -234,7 +234,7 @@ window.CONFIG = {
       },
       comp_nigeria: {
         fan: "🇳🇬 Nigeria",
-        bot: "For Nigeria (CBN regulations):\n\n✅ Nigerian NIN (National Identification Number) verification\n✅ BVN (Bank Verification Number) integration\n✅ CBN KYC tier compliance (Tier 1/2/3 accounts)\n✅ AML screening for NFIU requirements\n\nNigeria is one of Africa's largest fintech markets — uqudo provides the identity infrastructure to onboard users compliantly at scale.",
+        bot: "For Nigeria (CBN regulations):\n\n✅ Nigerian NIN (National Identification Number) verification\n✅ BVN (Bank Verification Number) integration\n✅ CBN KYC tier compliance (Tier 1/2/3 accounts)\n✅ AML screening for NFIU requirements\n\nNigeria is one of Africa's largest fintech markets. Uqudo provides the identity infrastructure to onboard users compliantly at scale.",
         opts: [
           ["📅 Book a demo", "book_demo"],
           ["← Back",         "start"]
@@ -242,7 +242,7 @@ window.CONFIG = {
       },
       comp_fatf: {
         fan: "🌐 FATF / International",
-        bot: "uqudo is designed around FATF's 40 Recommendations for AML/CFT compliance:\n\n✅ Customer Due Diligence (CDD) — full identity verification at onboarding\n✅ Enhanced Due Diligence (EDD) — additional checks for high-risk profiles\n✅ Ongoing monitoring — continuous re-screening post-onboarding\n✅ Travel Rule — transaction data sharing for crypto/VASP compliance\n✅ Sanctions + PEP screening across global watchlists\n\nFor businesses operating across multiple FATF member countries, uqudo provides a single platform that meets requirements across all jurisdictions.",
+        bot: "uqudo is designed around FATF's 40 Recommendations for AML/CFT compliance:\n\n✅ Customer Due Diligence (CDD): full identity verification at onboarding\n✅ Enhanced Due Diligence (EDD): additional checks for high-risk profiles\n✅ Ongoing monitoring: continuous re-screening post-onboarding\n✅ Travel Rule: transaction data sharing for crypto/VASP compliance\n✅ Sanctions + PEP screening across global watchlists\n\nFor businesses operating across multiple FATF member countries, uqudo provides a single platform that meets requirements across all jurisdictions.",
         opts: [
           ["📅 Book a demo", "book_demo"],
           ["← Back",         "start"]
@@ -263,7 +263,7 @@ window.CONFIG = {
       },
       tech_sdk: {
         fan: "📱 SDK & mobile",
-        bot: "uqudo provides native SDKs for:\n\n• iOS (Swift)\n• Android (Kotlin/Java)\n• React Native\n• Flutter\n• Web (JavaScript)\n\nThe SDK handles the full verification flow: document capture, NFC reading, facial recognition, liveness check. Integration time is typically 1–3 days for a standard flow. The UI is fully customizable to match your brand. Sandbox environment available for testing before go-live.",
+        bot: "uqudo provides native SDKs for:\n\n• iOS (Swift)\n• Android (Kotlin/Java)\n• React Native\n• Flutter\n• Web (JavaScript)\n\nThe SDK handles the full verification flow: document capture, NFC reading, facial recognition, liveness check. Integration time is typically 1 to 3 days for a standard flow. The UI is fully customizable to match your brand. Sandbox environment available for testing before go-live.",
         opts: [["← Back", "start"]]
       },
       tech_api: {
@@ -273,7 +273,7 @@ window.CONFIG = {
       },
       tech_onprem: {
         fan: "🏗️ On-premise / private cloud",
-        bot: "uqudo supports flexible deployment for clients with strict data residency requirements:\n\n• Cloud SaaS (default — fastest time to market)\n• Private cloud deployment within your own cloud environment\n• On-premise deployment on your infrastructure\n\nThis is particularly relevant for GCC government entities, banks under SAMA/CBUAE data localization rules, and large enterprises with internal data governance policies. Full support and SLA available for all deployment modes.",
+        bot: "uqudo supports flexible deployment for clients with strict data residency requirements:\n\n• Cloud SaaS (default, fastest time to market)\n• Private cloud deployment within your own cloud environment\n• On-premise deployment on your infrastructure\n\nThis is particularly relevant for GCC government entities, banks under SAMA/CBUAE data localization rules, and large enterprises with internal data governance policies. Full support and SLA available for all deployment modes.",
         opts: [["← Back", "start"]]
       },
       tech_fido: {
@@ -288,37 +288,37 @@ window.CONFIG = {
         bot: "Let me calculate your potential ROI with uqudo. What's your approximate monthly volume of new user verifications?",
         opts: [
           ["< 1,000 verifications/month",             "roi_small"],
-          ["1,000 – 10,000 verifications/month",      "roi_mid"],
-          ["10,000 – 100,000 verifications/month",    "roi_large"],
+          ["1,000 to 10,000 verifications/month",     "roi_mid"],
+          ["10,000 to 100,000 verifications/month",   "roi_large"],
           ["> 100,000 verifications/month",           "roi_enterprise"],
           ["← Back",                                   "start"]
         ]
       },
       roi_small: {
         fan: "< 1,000/month",
-        bot: "At under 1,000 verifications/month, the primary ROI drivers for you are:\n\n• Eliminating manual document review (typically 3–8 min per case at $15–25/hr)\n• Reducing fraud losses from fake accounts\n• Accelerating onboarding speed (30s vs 24–48h manual) = lower drop-off\n\nEstimated annual savings: $15,000–$40,000 depending on current manual review process. uqudo's success-based pricing means cost scales only with verified users — no fixed overhead.",
+        bot: "At under 1,000 verifications/month, the primary ROI drivers for you are:\n\n• Eliminating manual document review (typically 3 to 8 min per case at $15 to $25/hr)\n• Reducing fraud losses from fake accounts\n• Accelerating onboarding speed (30s vs 24 to 48h manual) = lower drop-off\n\nEstimated annual savings: $15,000 to $40,000 depending on current manual review process. uqudo's success-based pricing means cost scales only with verified users. No fixed overhead.",
         opts: [["📅 Book a demo", "book_demo"], ["← Back", "start"]]
       },
       roi_mid: {
-        fan: "1,000 – 10,000/month",
-        bot: "At 1,000–10,000 verifications/month:\n\n• Manual review elimination: 50–500 hours/month saved\n• Fraud prevention: typically 0.5–2% of new accounts are fraudulent at this scale\n• Onboarding drop-off reduction: automated flow reduces abandonment by 35–50%\n\nEstimated annual value: $80,000–$300,000 in operational savings + fraud prevention. The ROI typically breaks even in the first 2–3 months of deployment.",
+        fan: "1,000 to 10,000/month",
+        bot: "At 1,000 to 10,000 verifications/month:\n\n• Manual review elimination: 50 to 500 hours/month saved\n• Fraud prevention: typically 0.5 to 2% of new accounts are fraudulent at this scale\n• Onboarding drop-off reduction: automated flow reduces abandonment by 35 to 50%\n\nEstimated annual value: $80,000 to $300,000 in operational savings + fraud prevention. The ROI typically breaks even in the first 2 to 3 months of deployment.",
         opts: [["📅 Book a demo", "book_demo"], ["← Back", "start"]]
       },
       roi_large: {
-        fan: "10,000 – 100,000/month",
-        bot: "At this scale, uqudo's impact becomes transformational:\n\n• 10,000–100,000 manual reviews eliminated monthly\n• Fraud ring detection (ID reuse across accounts) can recover 1–3% of revenue\n• Device intelligence blocks bot farms and synthetic identity attacks\n• Compliance automation eliminates a significant portion of your compliance team's repetitive work\n\nAt 50,000 verifications/month, clients typically see $500k–$2M in annual value from fraud reduction + operational savings combined. I'd recommend a dedicated ROI workshop with our team.",
+        fan: "10,000 to 100,000/month",
+        bot: "At this scale, uqudo's impact becomes transformational:\n\n• 10,000 to 100,000 manual reviews eliminated monthly\n• Fraud ring detection (ID reuse across accounts) can recover 1 to 3% of revenue\n• Device intelligence blocks bot farms and synthetic identity attacks\n• Compliance automation eliminates a significant portion of your compliance team's repetitive work\n\nAt 50,000 verifications/month, clients typically see $500k to $2M in annual value from fraud reduction + operational savings combined. I'd recommend a dedicated ROI workshop with our team.",
         opts: [["📅 Book a demo", "book_demo"], ["← Back", "start"]]
       },
       roi_enterprise: {
         fan: "> 100,000/month",
-        bot: "At enterprise scale (100,000+ verifications/month), this is a strategic infrastructure decision:\n\n• Full API integration into your onboarding pipeline\n• Custom SLA and dedicated support team\n• On-premise or private cloud deployment options\n• Custom pricing model aligned with your growth trajectory\n\nAt this volume, the ROI analysis requires a dedicated session with our enterprise team. I'll flag your profile as high-priority — expect a response within 4 hours.",
+        bot: "At enterprise scale (100,000+ verifications/month), this is a strategic infrastructure decision:\n\n• Full API integration into your onboarding pipeline\n• Custom SLA and dedicated support team\n• On-premise or private cloud deployment options\n• Custom pricing model aligned with your growth trajectory\n\nAt this volume, the ROI analysis requires a dedicated session with our enterprise team. I'll flag your profile as high-priority. Expect a response within 4 hours.",
         opts: [["📅 Book a demo", "book_demo"], ["← Back", "start"]]
       },
 
       /* ── BOOK DEMO ── */
       book_demo: {
         fan: "📅 Book a demo",
-        bot: "Perfect. To make sure you speak with the right specialist, let me confirm a few things:\n\n1. What sector are you in?\n2. Which country / region?\n3. What's your primary use case?\n\nShare these details and I'll route you to the most relevant person on the uqudo team — who will arrive fully briefed on your profile. Expected response: within 2 hours.",
+        bot: "Perfect. To make sure you speak with the right specialist, let me confirm a few things:\n\n1. What sector are you in?\n2. Which country / region?\n3. What's your primary use case?\n\nShare these details and I'll route you to the most relevant person on the uqudo team. They will arrive fully briefed on your profile. Expected response: within 2 hours.",
         opts: [["← Back", "start"]]
       }
     }
@@ -328,17 +328,17 @@ window.CONFIG = {
     show: true,
     client: { name: "Innatural Shop", initials: "IS", sector: "Natural beauty e-commerce · Hair care · Bilingual FR/AR · Production" },
     built: [
-      { icon: "🤖", title: "End-to-end custom chatbot, production-grade",  desc: "Product recommendations by hair type, 24/7 customer support, order tracking — built on Claude AI and deployed live on the existing website" },
-      { icon: "🌍", title: "Bilingual FR/Arabic with adaptive RTL interface", desc: "Full right-to-left layout switching, integrated in 1 line of code on the client's site — no website rebuild" }
+      { icon: "🤖", title: "End-to-end custom chatbot, production-grade",  desc: "Product recommendations by hair type, 24/7 customer support, order tracking, built on Claude AI and deployed live on the existing website" },
+      { icon: "🌍", title: "Bilingual FR/Arabic with adaptive RTL interface", desc: "Full right-to-left layout switching, integrated in 1 line of code on the client's site. No website rebuild." }
     ],
-    quote:   "A production bot, built from scratch, capable of recommending products based on user profile, qualifying leads and handling customer support — without any infrastructure change on the client side.",
+    quote:   "A production bot, built from scratch, capable of recommending products based on user profile, qualifying leads and handling customer support, without any infrastructure change on the client side.",
     contact: "Live production reference · Innatural Shop",
     note:    "Source code available · Live demo on request"
   },
 
   cta: {
     title:    "Let's build this",
-    subtitle: "I can design, build and deploy this pre-sales bot for uqudo — from architecture to production, in 4 weeks",
+    subtitle: "I can design, build and deploy this pre-sales bot for uqudo, from architecture to production, in 4 weeks",
     chips: [
       "⚡ Full-stack bot development",
       "🔗 API integration with your existing stack",
